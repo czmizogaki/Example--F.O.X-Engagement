@@ -1,0 +1,32 @@
+{
+  "name": "foxEngagement",
+  "version": "1.0.0",
+  "summary": "FOX Engagement SDK for iOS.",
+  "description": "Pod integration for F.O.X Engagement SDK",
+  "homepage": "https://github.com/cyber-z/public-foxengagement-ios-sdk",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright © CyberZ, inc. All Rights Reserved."
+  },
+  "authors": "CyberZ inc.",
+  "source": {
+    "http": "https://github.com/cyber-z/public-foxengagement-ios-sdk/releases/download/1.0.0/FOXEngagement_iOS_1.0.0.zip"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": false,
+  "source_files": "**/*.{h,m}",
+  "vendored_libraries": "**/*.a",
+  "public_header_files": "**/*.h",
+  "frameworks": [
+    "Foundation",
+    "Security",
+    "AdSupport",
+    "SystemConfiguration"
+  ],
+  "weak_frameworks": "ImageIO",
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/foxEngagement"
+  }
+}

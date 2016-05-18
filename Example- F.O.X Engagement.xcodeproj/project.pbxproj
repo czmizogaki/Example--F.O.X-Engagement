@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E3C60DC15A2557847F9399C /* libPods-Example- F.O.X EngagementUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D8F4FEA4C265AD6DF3F9D0 /* libPods-Example- F.O.X EngagementUITests.a */; };
+		4A9ABEF297F64650796EF330 /* libPods-Example- F.O.X EngagementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB761B3268C49DCA273EA8B /* libPods-Example- F.O.X EngagementTests.a */; };
+		8D2E73B7C3900D6DC9B5C484 /* libPods-Example- F.O.X Engagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1C82E0F72B8129B65116D8 /* libPods-Example- F.O.X Engagement.a */; };
+		D995B4711CEC331200CF263D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D995B4701CEC331200CF263D /* main.m */; };
+		D995B4741CEC331300CF263D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D995B4731CEC331300CF263D /* AppDelegate.m */; };
+		D995B4771CEC331300CF263D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D995B4761CEC331300CF263D /* ViewController.m */; };
+		D995B47A1CEC331300CF263D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D995B4781CEC331300CF263D /* Main.storyboard */; };
+		D995B47D1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D995B47B1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodeld */; };
+		D995B47F1CEC331300CF263D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D995B47E1CEC331300CF263D /* Assets.xcassets */; };
+		D995B4821CEC331300CF263D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D995B4801CEC331300CF263D /* LaunchScreen.storyboard */; };
+		D995B48D1CEC331300CF263D /* Example__F_O_X_EngagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D995B48C1CEC331300CF263D /* Example__F_O_X_EngagementTests.m */; };
+		D995B4981CEC331300CF263D /* Example__F_O_X_EngagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D995B4971CEC331300CF263D /* Example__F_O_X_EngagementUITests.m */; };
+		D995B4A61CEC4DAF00CF263D /* FoxEngagement.plist in Resources */ = {isa = PBXBuildFile; fileRef = D995B4A51CEC4DAF00CF263D /* FoxEngagement.plist */; };
+		D995B4A81CEC627800CF263D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D995B4A71CEC627800CF263D /* AdSupport.framework */; };
+		D995B4AA1CEC628300CF263D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D995B4A91CEC628300CF263D /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D995B4891CEC331300CF263D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D995B4641CEC331200CF263D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D995B46B1CEC331200CF263D;
+			remoteInfo = "Example- F.O.X Engagement";
+		};
+		D995B4941CEC331300CF263D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D995B4641CEC331200CF263D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D995B46B1CEC331200CF263D;
+			remoteInfo = "Example- F.O.X Engagement";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EE7234884706307BAFCACA8 /* Pods-Example- F.O.X Engagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example- F.O.X Engagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example- F.O.X Engagement/Pods-Example- F.O.X Engagement.release.xcconfig"; sourceTree = "<group>"; };
+		28D8F4FEA4C265AD6DF3F9D0 /* libPods-Example- F.O.X EngagementUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example- F.O.X EngagementUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D38CCB29110AEFE7A4DC3F6 /* Pods-Example- F.O.X EngagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example- F.O.X EngagementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example- F.O.X EngagementUITests/Pods-Example- F.O.X EngagementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7DB761B3268C49DCA273EA8B /* libPods-Example- F.O.X EngagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example- F.O.X EngagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93832A5BEF93DFC6C81802DB /* Pods-Example- F.O.X Engagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example- F.O.X Engagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example- F.O.X Engagement/Pods-Example- F.O.X Engagement.debug.xcconfig"; sourceTree = "<group>"; };
+		C870BB79946E4D0393DA8B30 /* Pods-Example- F.O.X EngagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example- F.O.X EngagementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example- F.O.X EngagementUITests/Pods-Example- F.O.X EngagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D86DD4E63D6BFBC21C397197 /* Pods-Example- F.O.X EngagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example- F.O.X EngagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example- F.O.X EngagementTests/Pods-Example- F.O.X EngagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		D995B46C1CEC331200CF263D /* Example- F.O.X Engagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example- F.O.X Engagement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D995B4701CEC331200CF263D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D995B4721CEC331200CF263D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D995B4731CEC331300CF263D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D995B4751CEC331300CF263D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D995B4761CEC331300CF263D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D995B4791CEC331300CF263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D995B47C1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Example__F_O_X_Engagement.xcdatamodel; sourceTree = "<group>"; };
+		D995B47E1CEC331300CF263D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D995B4811CEC331300CF263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D995B4831CEC331300CF263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D995B4881CEC331300CF263D /* Example- F.O.X EngagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example- F.O.X EngagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D995B48C1CEC331300CF263D /* Example__F_O_X_EngagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example__F_O_X_EngagementTests.m; sourceTree = "<group>"; };
+		D995B48E1CEC331300CF263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D995B4931CEC331300CF263D /* Example- F.O.X EngagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example- F.O.X EngagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D995B4971CEC331300CF263D /* Example__F_O_X_EngagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example__F_O_X_EngagementUITests.m; sourceTree = "<group>"; };
+		D995B4991CEC331300CF263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D995B4A51CEC4DAF00CF263D /* FoxEngagement.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FoxEngagement.plist; sourceTree = "<group>"; };
+		D995B4A71CEC627800CF263D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D995B4A91CEC628300CF263D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DB3FC0B1E72A07CE177F6E8A /* Pods-Example- F.O.X EngagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example- F.O.X EngagementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example- F.O.X EngagementTests/Pods-Example- F.O.X EngagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1C82E0F72B8129B65116D8 /* libPods-Example- F.O.X Engagement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example- F.O.X Engagement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D995B4691CEC331200CF263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995B4AA1CEC628300CF263D /* ImageIO.framework in Frameworks */,
+				D995B4A81CEC627800CF263D /* AdSupport.framework in Frameworks */,
+				8D2E73B7C3900D6DC9B5C484 /* libPods-Example- F.O.X Engagement.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D995B4851CEC331300CF263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9ABEF297F64650796EF330 /* libPods-Example- F.O.X EngagementTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D995B4901CEC331300CF263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C60DC15A2557847F9399C /* libPods-Example- F.O.X EngagementUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59DF9B49540D34E65EA7595E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93832A5BEF93DFC6C81802DB /* Pods-Example- F.O.X Engagement.debug.xcconfig */,
+				1EE7234884706307BAFCACA8 /* Pods-Example- F.O.X Engagement.release.xcconfig */,
+				DB3FC0B1E72A07CE177F6E8A /* Pods-Example- F.O.X EngagementTests.debug.xcconfig */,
+				D86DD4E63D6BFBC21C397197 /* Pods-Example- F.O.X EngagementTests.release.xcconfig */,
+				C870BB79946E4D0393DA8B30 /* Pods-Example- F.O.X EngagementUITests.debug.xcconfig */,
+				5D38CCB29110AEFE7A4DC3F6 /* Pods-Example- F.O.X EngagementUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		958D7AF1193DD4910FC9A53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D995B4A91CEC628300CF263D /* ImageIO.framework */,
+				D995B4A71CEC627800CF263D /* AdSupport.framework */,
+				FF1C82E0F72B8129B65116D8 /* libPods-Example- F.O.X Engagement.a */,
+				7DB761B3268C49DCA273EA8B /* libPods-Example- F.O.X EngagementTests.a */,
+				28D8F4FEA4C265AD6DF3F9D0 /* libPods-Example- F.O.X EngagementUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D995B4631CEC331200CF263D = {
+			isa = PBXGroup;
+			children = (
+				D995B4A51CEC4DAF00CF263D /* FoxEngagement.plist */,
+				D995B46E1CEC331200CF263D /* Example- F.O.X Engagement */,
+				D995B48B1CEC331300CF263D /* Example- F.O.X EngagementTests */,
+				D995B4961CEC331300CF263D /* Example- F.O.X EngagementUITests */,
+				D995B46D1CEC331200CF263D /* Products */,
+				59DF9B49540D34E65EA7595E /* Pods */,
+				958D7AF1193DD4910FC9A53B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D995B46D1CEC331200CF263D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D995B46C1CEC331200CF263D /* Example- F.O.X Engagement.app */,
+				D995B4881CEC331300CF263D /* Example- F.O.X EngagementTests.xctest */,
+				D995B4931CEC331300CF263D /* Example- F.O.X EngagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D995B46E1CEC331200CF263D /* Example- F.O.X Engagement */ = {
+			isa = PBXGroup;
+			children = (
+				D995B4721CEC331200CF263D /* AppDelegate.h */,
+				D995B4731CEC331300CF263D /* AppDelegate.m */,
+				D995B4751CEC331300CF263D /* ViewController.h */,
+				D995B4761CEC331300CF263D /* ViewController.m */,
+				D995B4781CEC331300CF263D /* Main.storyboard */,
+				D995B47E1CEC331300CF263D /* Assets.xcassets */,
+				D995B4801CEC331300CF263D /* LaunchScreen.storyboard */,
+				D995B4831CEC331300CF263D /* Info.plist */,
+				D995B47B1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodeld */,
+				D995B46F1CEC331200CF263D /* Supporting Files */,
+			);
+			path = "Example- F.O.X Engagement";
+			sourceTree = "<group>";
+		};
+		D995B46F1CEC331200CF263D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D995B4701CEC331200CF263D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D995B48B1CEC331300CF263D /* Example- F.O.X EngagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				D995B48C1CEC331300CF263D /* Example__F_O_X_EngagementTests.m */,
+				D995B48E1CEC331300CF263D /* Info.plist */,
+			);
+			path = "Example- F.O.X EngagementTests";
+			sourceTree = "<group>";
+		};
+		D995B4961CEC331300CF263D /* Example- F.O.X EngagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D995B4971CEC331300CF263D /* Example__F_O_X_EngagementUITests.m */,
+				D995B4991CEC331300CF263D /* Info.plist */,
+			);
+			path = "Example- F.O.X EngagementUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D995B46B1CEC331200CF263D /* Example- F.O.X Engagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D995B49C1CEC331300CF263D /* Build configuration list for PBXNativeTarget "Example- F.O.X Engagement" */;
+			buildPhases = (
+				64626F81FF3D82BC65621151 /* 📦 Check Pods Manifest.lock */,
+				D995B4681CEC331200CF263D /* Sources */,
+				D995B4691CEC331200CF263D /* Frameworks */,
+				D995B46A1CEC331200CF263D /* Resources */,
+				DEAAF8BA379463F0CF4ECFF4 /* 📦 Embed Pods Frameworks */,
+				71CB0C67DC3C140A6E431B98 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example- F.O.X Engagement";
+			productName = "Example- F.O.X Engagement";
+			productReference = D995B46C1CEC331200CF263D /* Example- F.O.X Engagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D995B4871CEC331300CF263D /* Example- F.O.X EngagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D995B49F1CEC331300CF263D /* Build configuration list for PBXNativeTarget "Example- F.O.X EngagementTests" */;
+			buildPhases = (
+				F5E29AB6C309774A8A18F4E8 /* 📦 Check Pods Manifest.lock */,
+				D995B4841CEC331300CF263D /* Sources */,
+				D995B4851CEC331300CF263D /* Frameworks */,
+				D995B4861CEC331300CF263D /* Resources */,
+				D8FDC5778CF144355889A6C9 /* 📦 Embed Pods Frameworks */,
+				A186E4C4D5FDE4D863A2B653 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D995B48A1CEC331300CF263D /* PBXTargetDependency */,
+			);
+			name = "Example- F.O.X EngagementTests";
+			productName = "Example- F.O.X EngagementTests";
+			productReference = D995B4881CEC331300CF263D /* Example- F.O.X EngagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D995B4921CEC331300CF263D /* Example- F.O.X EngagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D995B4A21CEC331300CF263D /* Build configuration list for PBXNativeTarget "Example- F.O.X EngagementUITests" */;
+			buildPhases = (
+				F491B287426FE771ECF1AD70 /* 📦 Check Pods Manifest.lock */,
+				D995B48F1CEC331300CF263D /* Sources */,
+				D995B4901CEC331300CF263D /* Frameworks */,
+				D995B4911CEC331300CF263D /* Resources */,
+				0C24FF432FF6F72D1191E59B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D995B4951CEC331300CF263D /* PBXTargetDependency */,
+			);
+			name = "Example- F.O.X EngagementUITests";
+			productName = "Example- F.O.X EngagementUITests";
+			productReference = D995B4931CEC331300CF263D /* Example- F.O.X EngagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D995B4641CEC331200CF263D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MMizogaki;
+				TargetAttributes = {
+					D995B46B1CEC331200CF263D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D995B4871CEC331300CF263D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D995B46B1CEC331200CF263D;
+					};
+					D995B4921CEC331300CF263D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D995B46B1CEC331200CF263D;
+					};
+				};
+			};
+			buildConfigurationList = D995B4671CEC331200CF263D /* Build configuration list for PBXProject "Example- F.O.X Engagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D995B4631CEC331200CF263D;
+			productRefGroup = D995B46D1CEC331200CF263D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D995B46B1CEC331200CF263D /* Example- F.O.X Engagement */,
+				D995B4871CEC331300CF263D /* Example- F.O.X EngagementTests */,
+				D995B4921CEC331300CF263D /* Example- F.O.X EngagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D995B46A1CEC331200CF263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995B4821CEC331300CF263D /* LaunchScreen.storyboard in Resources */,
+				D995B4A61CEC4DAF00CF263D /* FoxEngagement.plist in Resources */,
+				D995B47F1CEC331300CF263D /* Assets.xcassets in Resources */,
+				D995B47A1CEC331300CF263D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D995B4861CEC331300CF263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D995B4911CEC331300CF263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C24FF432FF6F72D1191E59B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example- F.O.X EngagementUITests/Pods-Example- F.O.X EngagementUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64626F81FF3D82BC65621151 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71CB0C67DC3C140A6E431B98 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example- F.O.X Engagement/Pods-Example- F.O.X Engagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A186E4C4D5FDE4D863A2B653 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example- F.O.X EngagementTests/Pods-Example- F.O.X EngagementTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8FDC5778CF144355889A6C9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example- F.O.X EngagementTests/Pods-Example- F.O.X EngagementTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEAAF8BA379463F0CF4ECFF4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example- F.O.X Engagement/Pods-Example- F.O.X Engagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F491B287426FE771ECF1AD70 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E29AB6C309774A8A18F4E8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D995B4681CEC331200CF263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995B4771CEC331300CF263D /* ViewController.m in Sources */,
+				D995B47D1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodeld in Sources */,
+				D995B4741CEC331300CF263D /* AppDelegate.m in Sources */,
+				D995B4711CEC331200CF263D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D995B4841CEC331300CF263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995B48D1CEC331300CF263D /* Example__F_O_X_EngagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D995B48F1CEC331300CF263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995B4981CEC331300CF263D /* Example__F_O_X_EngagementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D995B48A1CEC331300CF263D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D995B46B1CEC331200CF263D /* Example- F.O.X Engagement */;
+			targetProxy = D995B4891CEC331300CF263D /* PBXContainerItemProxy */;
+		};
+		D995B4951CEC331300CF263D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D995B46B1CEC331200CF263D /* Example- F.O.X Engagement */;
+			targetProxy = D995B4941CEC331300CF263D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D995B4781CEC331300CF263D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D995B4791CEC331300CF263D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D995B4801CEC331300CF263D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D995B4811CEC331300CF263D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D995B49A1CEC331300CF263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D995B49B1CEC331300CF263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D995B49D1CEC331300CF263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93832A5BEF93DFC6C81802DB /* Pods-Example- F.O.X Engagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Example- F.O.X Engagement/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyber-z.Example--F-O-X-Engagement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D995B49E1CEC331300CF263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE7234884706307BAFCACA8 /* Pods-Example- F.O.X Engagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Example- F.O.X Engagement/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyber-z.Example--F-O-X-Engagement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D995B4A01CEC331300CF263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3FC0B1E72A07CE177F6E8A /* Pods-Example- F.O.X EngagementTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Example- F.O.X EngagementTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyber-z.Example--F-O-X-EngagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example- F.O.X Engagement.app/Example- F.O.X Engagement";
+			};
+			name = Debug;
+		};
+		D995B4A11CEC331300CF263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86DD4E63D6BFBC21C397197 /* Pods-Example- F.O.X EngagementTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Example- F.O.X EngagementTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyber-z.Example--F-O-X-EngagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example- F.O.X Engagement.app/Example- F.O.X Engagement";
+			};
+			name = Release;
+		};
+		D995B4A31CEC331300CF263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C870BB79946E4D0393DA8B30 /* Pods-Example- F.O.X EngagementUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Example- F.O.X EngagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyber-z.Example--F-O-X-EngagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Example- F.O.X Engagement";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D995B4A41CEC331300CF263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D38CCB29110AEFE7A4DC3F6 /* Pods-Example- F.O.X EngagementUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Example- F.O.X EngagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyber-z.Example--F-O-X-EngagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Example- F.O.X Engagement";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D995B4671CEC331200CF263D /* Build configuration list for PBXProject "Example- F.O.X Engagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D995B49A1CEC331300CF263D /* Debug */,
+				D995B49B1CEC331300CF263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D995B49C1CEC331300CF263D /* Build configuration list for PBXNativeTarget "Example- F.O.X Engagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D995B49D1CEC331300CF263D /* Debug */,
+				D995B49E1CEC331300CF263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D995B49F1CEC331300CF263D /* Build configuration list for PBXNativeTarget "Example- F.O.X EngagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D995B4A01CEC331300CF263D /* Debug */,
+				D995B4A11CEC331300CF263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D995B4A21CEC331300CF263D /* Build configuration list for PBXNativeTarget "Example- F.O.X EngagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D995B4A31CEC331300CF263D /* Debug */,
+				D995B4A41CEC331300CF263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D995B47B1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D995B47C1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodel */,
+			);
+			currentVersion = D995B47C1CEC331300CF263D /* Example__F_O_X_Engagement.xcdatamodel */;
+			path = Example__F_O_X_Engagement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D995B4641CEC331200CF263D /* Project object */;
+}
